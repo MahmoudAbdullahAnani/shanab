@@ -1,0 +1,88 @@
+.shanab{
+    position: absolute;
+    left: calc(1285.600/2);
+    /* transform: translate(-50% ,-50%); */
+    width: 180px;
+    height: 180px;
+    color: black;
+    background-color: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 647px 180px 0 0 currentColor , 475px 180px 0 0 currentColor;
+}
+.shanab::before {
+    content: "";
+    /* transform-origin: right; */
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 344px;
+    top: 106px;
+    /* background-color: red; */
+    border-bottom: 180px solid currentColor;
+    border-radius: 0 0 0 100%;
+    -webkit-border-radius: 0 0 0 100%;
+    -moz-border-radius: 0 0 0 100%;
+    -ms-border-radius: 0 0 0 100%;
+    -o-border-radius: 0 0 0 100%;
+    transform: rotate(-410deg);
+    /* -webkit-transform: rotate(-512deg); */
+    -moz-transform: rotate(-400deg);
+    -ms-transform: rotate(-400deg);
+    -o-transform: rotate(-400deg);
+        /* animation: shbe 1s ease-in-out infinite;
+    -webkit-animation: shbe 1s ease-in-out infinite; */
+
+}
+.shanab::after {
+    content: "";
+    /* transform-origin: left; */
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 776px;
+    top: 106px;
+    /* background-color: red; */
+    border-bottom: 180px solid currentColor;
+    border-radius: 0 0 100% 0%;
+    -webkit-border-radius: 0 0 100% 0%;
+    -moz-border-radius: 0 0 100% 0%;
+    -ms-border-radius: 0 0 100% 0%;
+    -o-border-radius: 0 0 100% 0%;
+    transform: rotate(-309deg);
+    
+}
+/* .shanab::before{
+    animation: shbe 1s ease-in-out infinite;
+    -webkit-animation: shbe 1s ease-in-out infinite;
+}
+.shanab::after{
+    animation: shaf 1s ease-in-out infinite;
+    -webkit-animation: shaf 1s ease-in-out infinite;
+} */
+@keyframes shbe{
+    0%{
+        transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+}
+    50%{
+        transform: rotate(-30deg);
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
+}
+    100%{
+        transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+}  
+}
